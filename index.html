@@ -6,13 +6,17 @@
     <title>Unity WebGL Player | head-like-a-hole</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/head-lilke-a-hole-live.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/head-like-a-hole-live.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
+    <div class="controls">
+      <p> P1: Use wasd to control the body and tfgh to control your head. Q will jump, T will shove, and Space will launch your head </p>
+      <p> P2 Use arrow keys to control the body and ijkl to control your head, / will jump and . will shove. Use enter to launch your head </p>
+    </div>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">

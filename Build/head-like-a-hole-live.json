@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "head-like-a-hole-live.data.unityweb",
+"asmCodeUrl": "head-like-a-hole-live.asm.code.unityweb",
+"asmMemoryUrl": "head-like-a-hole-live.asm.memory.unityweb",
+"asmFrameworkUrl": "head-like-a-hole-live.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
